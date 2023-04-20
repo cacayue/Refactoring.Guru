@@ -6,30 +6,30 @@ using System.Threading.Tasks;
 
 namespace _01_Interface
 {
-    public class Company
+    public abstract class CompanyAbstract
     {
+        public abstract IEnumerable<Employee> GetEmployee();
         public void CreateSoftwave()
         {
-            var des = new Designer();
-            //des.Design();
-
-            var prog = new Programmer();
-            //prog.Code();
-
-            var test = new Tester();
-            //test.Test();
-
-            var employees = new List<Employee>()
-            {
-                des,prog,test
-            };
-
+            var employees = GetEmployee();
             foreach (var employee in employees)
             {
                 employee.DoWork();
             }
 
             Console.WriteLine("CreateSoftwave...");
+        }
+    }
+
+    public class Company: CompanyAbstract
+    {
+
+        public override IEnumerable<Employee> GetEmployee()
+        {
+            return new List<Employee>()
+            {
+                new Designer(),new Programmer(),new Tester()
+            };
         }
     }
 
