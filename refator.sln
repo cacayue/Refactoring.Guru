@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0102-combination", "02-comb
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0103-SingleResponsibility", "0103-SingleResponsibility\0103-SingleResponsibility.csproj", "{86D80AE9-3A9A-494F-B1BF-AE9FBC64BCD4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0105-Liskov-Substitution", "0105-Liskov-Substitution\0105-Liskov-Substitution.csproj", "{98C11BCC-02FB-4F66-BBF4-BF6BFC3CDCC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{86D80AE9-3A9A-494F-B1BF-AE9FBC64BCD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86D80AE9-3A9A-494F-B1BF-AE9FBC64BCD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86D80AE9-3A9A-494F-B1BF-AE9FBC64BCD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98C11BCC-02FB-4F66-BBF4-BF6BFC3CDCC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98C11BCC-02FB-4F66-BBF4-BF6BFC3CDCC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98C11BCC-02FB-4F66-BBF4-BF6BFC3CDCC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98C11BCC-02FB-4F66-BBF4-BF6BFC3CDCC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
