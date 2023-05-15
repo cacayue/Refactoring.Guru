@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0302-bridge", "0302-bridge\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0303-Composite", "0303-Composite\0303-Composite.csproj", "{18D5061D-88FD-4CEA-8260-943096530411}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0304-Wapper", "0304-Wapper\0304-Wapper.csproj", "{128C51C1-8915-4215-99D5-30E7461B52D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0305-Facade", "0305-Facade\0305-Facade.csproj", "{83D95DDC-0370-49C1-AA51-30DAA9CF6306}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{18D5061D-88FD-4CEA-8260-943096530411}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18D5061D-88FD-4CEA-8260-943096530411}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18D5061D-88FD-4CEA-8260-943096530411}.Release|Any CPU.Build.0 = Release|Any CPU
+		{128C51C1-8915-4215-99D5-30E7461B52D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{128C51C1-8915-4215-99D5-30E7461B52D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{128C51C1-8915-4215-99D5-30E7461B52D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{128C51C1-8915-4215-99D5-30E7461B52D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83D95DDC-0370-49C1-AA51-30DAA9CF6306}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83D95DDC-0370-49C1-AA51-30DAA9CF6306}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83D95DDC-0370-49C1-AA51-30DAA9CF6306}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83D95DDC-0370-49C1-AA51-30DAA9CF6306}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
