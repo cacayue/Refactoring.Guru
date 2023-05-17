@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0305-Facade", "0305-Facade\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0306-Flyweight", "0306-Cache\0306-Flyweight.csproj", "{8126692E-529D-4A8C-9AD6-F9BBCC326A57}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0307-Proxy", "0307-Proxy\0307-Proxy.csproj", "{5DAD5920-079E-4609-ABDA-0128ED2E91FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{8126692E-529D-4A8C-9AD6-F9BBCC326A57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8126692E-529D-4A8C-9AD6-F9BBCC326A57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8126692E-529D-4A8C-9AD6-F9BBCC326A57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DAD5920-079E-4609-ABDA-0128ED2E91FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DAD5920-079E-4609-ABDA-0128ED2E91FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DAD5920-079E-4609-ABDA-0128ED2E91FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DAD5920-079E-4609-ABDA-0128ED2E91FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
