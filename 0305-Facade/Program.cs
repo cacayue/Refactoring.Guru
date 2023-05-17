@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var convert = new VideoConverter();
+
+            var convertFile =  convert.ConvertVideo("001", "mp4");
+
+            Console.WriteLine(convertFile);
         }
     }
 }
